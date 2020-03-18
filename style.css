@@ -2,30 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    line-height: 0;
-}
-
-html {
-    font-size: 18px;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: #33475b;
-}
-
-header{
-    height: 250px;
+    font-size: 18px;
 }
 
 .header-top {
     background-color: #f5f8fa;
     border-bottom: 1px solid #cbd6e2;
-    display: inline-block;
-    top: 0;
-    left: 0;
+    float: left;
     width: 100%;
-    padding: 0.75rem 0;
+    line-height: 35px;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .container {
@@ -54,7 +50,7 @@ header{
     color: #33475b;
 }
 
-.language .fa-caret-down {
+.language .fa-caret-down, #main-menu .fa-caret-down {
     color: rgba(52,71,91,0.6);
 }
 
@@ -132,4 +128,55 @@ header{
     padding-right: 1rem;
     font-size: 1rem;
     font-weight: 500;
+}
+
+#jumbotron {
+    background-color: #fff2ee;
+    height: 751px;
+    line-height: 20px;
+}
+
+#jumbo-wrapper, #jumbo-content {
+}
+
+#jumbo-wrapper {
+    display: inline-block;
+    width: 50%;
+    padding: 4rem 0;
+}
+
+#jumbo-content {
+    line-height: 40px;
+    width: 78%;
+    padding: 1.5rem 0;
+}
+
+#jumbo-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#jumbo-content h1, #jumbo-content #textbox1, #jumbo-content #textbox2, .btn-main {
+    padding: 1.5rem 0;
+}
+
+#jumbo-content #textbox1 {
+    color: rgba(51, 71, 91, 0.5);
+    font-weight: 400;
+}
+
+#jumbo-content .btn {
+    padding: 1.4em 2em 1.2em;
+    font-size: 1.2rem;
+}
+
+.btn-main a {
+    text-decoration: none;
+}
+
+#jumbo-content #textbox2 {
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    width: 50%;
 }
