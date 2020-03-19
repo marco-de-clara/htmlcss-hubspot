@@ -13,9 +13,14 @@ body {
 .header-top {
     background-color: #f5f8fa;
     border-bottom: 1px solid #cbd6e2;
-    float: left;
+    position: fixed;
     width: 100%;
+    top: 0;
     line-height: 35px;
+}
+
+.header-top + .header-bottom {
+    padding-top: 86px;
 }
 
 .clearfix {
@@ -91,8 +96,13 @@ body {
     color: #ffffff;
 }
 
+.item2 .btn:hover::after {
+    content: '';
+    color: rgba(255, 122, 89, 1);
+}
+
 .header-bottom {
-    display: inline-block;
+    float: left;
     background-color: #ffffff;
     width: 100%;
 }
@@ -130,13 +140,12 @@ body {
     font-weight: 500;
 }
 
-#jumbotron {
+.jumbotron {
     background-color: #fff2ee;
-    height: 751px;
+    float: left;
+    width: 100%;
     line-height: 20px;
-}
-
-#jumbo-wrapper, #jumbo-content {
+    border-bottom: 1px solid #33475b;
 }
 
 #jumbo-wrapper {
@@ -179,4 +188,30 @@ body {
     font-weight: 500;
     font-size: 0.9rem;
     width: 50%;
+}
+
+.growth {
+    background-color: #f5f8fa;
+    height: 1000px;
+    width: 100%;
+    float: left;
+}
+
+.btn-chat {
+    text-align: center;
+    background-color: #425b76;
+    width: 60px;
+    height: 60px;
+    border-radius: 35px;
+    display: block;
+    position: fixed;
+    padding: 15px 10px;
+    cursor: pointer;
+    right: 15px;
+    bottom: 15px;
+    z-index: 10;
+}
+
+.btn-chat #chat {
+    height: 30px;
 }
