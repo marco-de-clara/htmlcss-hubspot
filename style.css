@@ -266,19 +266,19 @@ body {
     margin: 0.7rem 0.88rem 0.7rem 0;
 }
 
-.crm-content h4, .marketing-wrapper h4 {
+.crm-content h4, .marketing-wrapper h4, .sales-wrapper h4, .service-wrapper h4{
     float: left;
     font-size: 1.5rem;
     margin: 0.5rem 0;
     font-weight: 500;
 }
 
-.crm-text, .marketing-text {
+.crm-text, .marketing-text, .sales-text, .service-text {
     font-size: 0.88rem;
     line-height: 25px;
 }
 
-.crm-text #crm-desc, .marketing-text #marketing-desc {
+.crm-text #crm-desc, .marketing-text #marketing-desc, .sales-text #sales-desc, .service-text #service-desc {
     padding: 1rem 0 1.2rem;
 }
 
@@ -347,55 +347,50 @@ body {
 }
 
 .growth-marketing, .growth-sales, .growth-service {
-    width: 42%;
-}
-
-.growth-marketing {
-    float: left;
-    margin: 0px 1.14rem 1rem 0px;
     width: 32%;
-}
-
-.growth-sales {
     float: left;
-    margin: 0px 1.35rem 1rem 0px;
-    width: 32%;
-    margin-right: 0;
+    margin: 0 1.35rem 1rem 0;
 }
 
-.marketing-text #marketing-desc {
+.growth-service {
+    margin: 0 0 1rem 0;
+}
+
+.marketing-text #marketing-desc, .sales-text #sales-desc, .service-text #service-desc {
     border-bottom: 1px solid #ebeef3;
     margin-bottom: 1.2rem;
     width: 90%;
 }
 
-.marketing-text #list {
+.marketing-text #list, .sales-text #list, .service-text #list {
     position: relative;
     text-transform: uppercase;
     font-weight: 500;
-    width: 35%;
 }
 
-.marketing-text .features {
+.marketing-text .features, .sales-text .features, .service-text .features {
     padding: 1.2rem 0 1.6rem;
 }
 
-.marketing-text ul {
+.marketing-text ul, .sales-text ul, .service-text ul {
     list-style: none;
     float: left;
 }
 
-.marketing-text li {
+.marketing-text li, .sales-text li, .service-text li {
     float: left;
-    margin: 0 5px 10px 0;
+    margin-bottom: 10px;
     font-size: 14px;
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.marketing-text li:last-child {
+.marketing-text li:last-child, .sales-text li:last-child, .service-text li:last-child {
     margin-right: 60px;
 }
 
-.marketing-text li::before {
+.marketing-text li::before, .sales-text li::before, .service-text li::before {
     content: "";
     background-image: url('https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg');
     background-repeat: no-repeat;
@@ -411,12 +406,12 @@ body {
     margin-top: 1.6rem;
 }
 
-.marketing-btn a {
+.marketing-btn a, .sales-btn a, .service-btn a {
     text-decoration: none;
     font-size: 1rem;
 }
 
-.marketing-btn .btn {
+.marketing-btn .btn, .sales-btn .btn, .service-btn .btn {
     padding: 1rem 6rem 0.8rem;
 }
 
