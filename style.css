@@ -184,7 +184,7 @@ body {
 }
 
 #jumbo-content #textbox1 {
-    color: rgba(51, 71, 91, 0.5);
+    color: rgba(51, 71, 91, 0.8);
     font-weight: 400;
 }
 
@@ -211,8 +211,133 @@ body {
     float: left;
 }
 
-#contentbox {
-    width: 100%;
+.growth-container {
+    display: inline-block;
+}
+
+.growth-top {
+    padding-top: 4rem;
+}
+
+.growth-content-wrapper, .growth-crm {
+    float: left;
+}
+
+.growth-content-wrapper {
+    width: 35%;
+}
+
+.growth-content-wrapper h2 {
+    width: 66%;
+    font-size: 2rem;
+    line-height: 40px;
+}
+
+.growth-content-wrapper .growth-text {
+    color: rgba(51, 71, 91, 0.8);
+    font-weight: 400;
+    padding: 1.1rem 0;
+    line-height: 30px;
+}
+
+.growth-content {
+    padding: 0 2em 2em 0;
+}
+
+.growth-crm {
+    width: 65%;
+}
+
+.crm-content {
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+#crm-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    float: left;
+    margin: 0.7rem 0.88rem 0.7rem 0;
+}
+
+.crm-content h4 {
+    float: left;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+
+.crm-text {
+    font-size: 0.88rem;
+    line-height: 25px;
+}
+
+.crm-text #crm-desc {
+    padding: 1rem 0;
+}
+
+.crm-text #list {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.crm-text #list::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    margin-left: 10px;
+    border-bottom: 1px solid rgba(153,172,194,0.2);
+    top: 4px;
+    width: 77%;
+}
+
+.crm-text .features {
+    padding: 0.7rem;
+}
+
+.crm-text ul {
+    list-style: none;
+    float: left;
+}
+
+.crm-text li {
+    float: left;
+    margin: 0 20px 5px 0;
+    font-size: 14px;
+}
+
+.crm-text li:last-child {
+    margin-right: 60px;
+}
+
+.crm-text li::before {
+    content: "";
+    background-image: url('https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg');
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+
+.crm-btn {
+    float: left;
+    margin-top: 0.8rem;
+}
+
+.crm-btn a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.crm-btn .btn {
+    padding: 1rem 5rem 0.7rem;
+}
+
+.growth-bottom {
+    padding-bottom: 4rem;
 }
 
 .btn-chat {
