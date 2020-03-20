@@ -43,6 +43,11 @@ body {
     padding: 0.75rem 0;
 }
 
+.language img {
+    height: 24px;
+    margin-right: 8px;
+}
+
 .language, .contact {
     display: inline-block;
     width: 15%;
@@ -129,6 +134,7 @@ body {
 
 #logo {
     padding: 35px 0;
+    width: 106px;
 }
 
 .menu-container {
@@ -257,12 +263,11 @@ body {
 
 #wrapper-img {
     width: 1.5rem;
-    height: 1.5rem;
     float: left;
     margin: 0.7rem 0.88rem 0.7rem 0;
 }
 
-.top-content h4, .top-wrapper h4 {
+.crm-content h4, .top-wrapper h4 {
     float: left;
     font-size: 1.5rem;
     margin: 0.5rem 0;
@@ -415,7 +420,6 @@ body {
     background: rgb(0,164,189);
     background: linear-gradient(45deg, rgba(0,164,189,1) 33%, rgba(0,188,166,1) 66%);
     width: 100%;
-    height: 1000px;
     float: left;
 }
 
@@ -433,11 +437,81 @@ body {
     width: 60%;
     padding-bottom: 1.56rem;
     font-size: 2rem;
+    line-height: 2.5rem;
 }
 
 .community-top .community-wrapper p {
     display: inline-block;
     width: 62%;
+}
+
+.community-bottom .community-wrapper {
+    padding-bottom: 7rem;
+}
+
+.community .item {
+    float: left;
+    padding: 30px;
+    height: 194px;
+    width: 25%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #ffffff;
+}
+
+.border-right {
+    border-right: 1px solid #ffffff;
+}
+
+.community-bottom .grid-layout-img {
+    display: inline-block;
+    text-align: center;
+    margin: 0 25px 15px;
+}
+
+.img-height {
+    height: 33px;
+}
+
+.lower {
+    height: 23px;
+    margin-top: 10px;
+}
+
+.bottom-row .item:last-of-type img {
+    height: 23px;
+}
+
+.community-bottom .item-wrapper {
+    display: inline-block;
+}
+
+.community-bottom .grid-layout-title {
+    display: inline-block;
+    padding-right: 10px;
+    margin: 0 0 5px;
+    font-size: 2.5rem;
+    position: relative;
+}
+
+.deferred {
+    margin: 0 20px;
+}
+
+
+.plus-after::after {
+    content: '+';
+    display: inline-block;
+    padding: 14.5px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 .btn-chat {
