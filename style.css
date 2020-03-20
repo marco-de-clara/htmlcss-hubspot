@@ -594,6 +594,11 @@ body {
     width: 350px;
 }
 
+.start-today .btn {
+    padding: 1.4em 2em 1.2em;
+    font-size: 1.2rem;
+}
+
 .btn-chat {
     text-align: center;
     background-color: #425b76;
