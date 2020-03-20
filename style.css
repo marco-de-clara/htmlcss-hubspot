@@ -24,7 +24,7 @@ body {
     margin-top: 86px;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -128,7 +128,7 @@ body {
 }
 
 .logo-container {
-    width: 40%;
+    width: 58%;
     float: left;
 }
 
@@ -138,7 +138,7 @@ body {
 }
 
 .menu-container {
-    width: 50%;
+    width: 42%;
     float: left;
 }
 
@@ -213,7 +213,6 @@ body {
 
 .growth {
     background-color: #f5f8fa;
-    height: 1000px;
     width: 100%;
     float: left;
 }
@@ -501,7 +500,6 @@ body {
     margin: 0 20px;
 }
 
-
 .plus-after::after {
     content: '+';
     display: inline-block;
@@ -514,6 +512,53 @@ body {
     font-weight: 500;
 }
 
+.customers {
+    background-color: #ffffff;
+    height: 1000px;
+    width: 100%;
+    float: left;
+}
+
+.customers-text {
+    padding-top: 100px;
+    float: left;
+    width: 46%;
+}
+
+.customers-text .title-wrapper {
+    float: left;
+    margin-right: 1rem;
+    width: 50%;
+}
+
+.title-wrapper h2 {
+    margin: 0 0 25px;
+    font-size: 2.5rem;
+    line-height: 1.3rem;
+    padding-top: 15px;
+}
+
+.customers-container .text-wrapper {
+    float: left;
+    width: 62%;
+    line-height: 1.6rem;
+}
+
+.customers-container .logo-container {
+    float: left;
+    padding-top: 100px;
+    width: 54%;
+}
+
+.wrapper-stats {
+    float: left;
+    padding: 15px;
+    width: 25%;
+}
+
+.wrapper-stats img {
+    width: 100%;
+}
 .btn-chat {
     text-align: center;
     background-color: #425b76;
