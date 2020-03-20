@@ -98,7 +98,7 @@ body {
     font-weight: 500;
 }
 
-.btn:hover {
+.hover-light:hover {
     background-color: rgba(255, 122, 89, 0.15);
 }
 
@@ -114,11 +114,6 @@ body {
 .btn-primary {
     background-color: #ff7a59;
     color: #ffffff;
-}
-
-.item2 .btn:hover::after {
-    content: '';
-    color: rgba(255, 122, 89, 1);
 }
 
 .header-bottom {
@@ -250,7 +245,7 @@ body {
     width: 66%;
 }
 
-.growth-crm:hover, .growth-box:hover {
+.scale:hover {
     transform: scale(1.014, 1.034);
 }
 
@@ -597,6 +592,97 @@ body {
 .start-today .btn {
     padding: 1.4em 2em 1.2em;
     font-size: 1.2rem;
+}
+
+footer {
+    background-color: #33475b;
+    float: left;
+    height: 2000px;
+    width: 100%;
+}
+
+.footer-container {
+    float: left;
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 110px 0 40px;
+}
+
+.list-layout {
+    list-style: none;
+    line-height: 3rem;
+}
+
+.list-layout ul {
+    padding-bottom: 20px;
+}
+
+.list-layout strong {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.list-layout li {
+    font-size: 1rem;
+}
+
+.list-layout a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#btn-support {
+    float: left;
+}
+
+#btn-support a {
+    text-decoration: none;
+}
+
+.footer-bottom {
+    border-bottom: 1px solid #ffffff;
+}
+
+.btn-tertiary {
+    float: left;
+    color: #334773;
+    border: 1px solid #ffffff;
+    margin: 2.22rem 2rem 0 0;
+}
+
+.media-layout {
+    float: left;
+    font-size: 1.3rem;
+    margin: 30px 15px 0 10px;
+}
+
+.languages-wrapper {
+    float:left;
+    width: 100%;
+}
+
+.languages-wrapper .list-layout {
+    text-align: center;
+}
+
+.languages-wrapper .list-layout li {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 11px 22px 33px;
+    font-weight: 700;
+}
+
+.hover-link:hover {
+    color: #7fd1de;
+}
+
+.footer-bottom {
+    float: left;
+    width: 100%;
 }
 
 .btn-chat {
