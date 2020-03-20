@@ -514,7 +514,6 @@ body {
 
 .customers {
     background-color: #ffffff;
-    height: 1000px;
     width: 100%;
     float: left;
 }
@@ -559,6 +558,42 @@ body {
 .wrapper-stats img {
     width: 100%;
 }
+
+.start-today {
+    float: left;
+}
+
+.start-today .wrapper-desc {
+    float: left;
+    width: 67%;
+}
+
+.start-today .wrapper-text {
+    padding-top: 150px
+}
+
+.wrapper-text h2 {
+    font-size: 1.777rem;
+    line-height: 1.3125em;
+    width: 60%;
+}
+
+.wrapper-text p {
+    padding: 30px 0;
+    font-size: 1rem;
+    line-height: 1.6111111111111112em;
+    width: 58%;
+}
+
+.start-today .wrapper-img {
+    padding: 120px 0 145px;
+    float: left;
+}
+
+.wrapper-img img {
+    width: 350px;
+}
+
 .btn-chat {
     text-align: center;
     background-color: #425b76;
