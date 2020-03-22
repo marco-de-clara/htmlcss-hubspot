@@ -125,7 +125,7 @@ body {
     width: 100%;
 }
 
-#logo-container {
+#logo-container-head {
     width: 58%;
     float: left;
 }
@@ -256,7 +256,7 @@ body {
     border-radius: 1%;
 }
 
-#wrapper-img {
+.wrapper-img {
     width: 1.5rem;
     float: left;
     margin: 0.7rem 0.88rem 0.7rem 0;
@@ -278,13 +278,13 @@ body {
     padding: 1rem 0 1.2rem;
 }
 
-#crm-text #list {
+#crm-text .list {
     position: relative;
     text-transform: uppercase;
     font-weight: 500;
 }
 
-#crm-text #list::after {
+#crm-text .list::after {
     content: "";
     position: absolute;
     height: 5px;
@@ -539,7 +539,7 @@ body {
     line-height: 1.6rem;
 }
 
-#customers-container #logo-container {
+#logo-container-customers {
     float: left;
     padding-top: 100px;
     width: 54%;
@@ -581,12 +581,12 @@ body {
     width: 58%;
 }
 
-#start-today #wrapper-img {
+#start-today #wrapper-img-customers {
     padding: 120px 0 145px;
     float: left;
 }
 
-#wrapper-img img {
+#wrapper-img-customers img {
     width: 350px;
 }
 
